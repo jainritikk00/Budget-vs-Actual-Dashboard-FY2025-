@@ -1,5 +1,7 @@
-# Budget-vs-Actual-Dashboard-FY2025-
+Budget vs Actual Dashboard (FY2025)
+
 A Power BI dashboard comparing budget and actual spend across four departments and five cost lines for FY2025, with variance analysis by department, cost line and month.
+
 The data is synthetic. It was generated for this project to show a realistic budget-vs-actual structure with deliberate variances to investigate. It does not reflect any real company.
 
 Dashboard Overview
@@ -18,10 +20,10 @@ Monthly variance: a line chart showing how the overspend builds through the year
 Slicers: filter by department and month.
 Key Findings
 Overall overspend of 2.4%. Actual spend is £121K above budget across the year.
-IT is the largest overspend at £66K. Most of this is payroll (£30K) and software (£35K). Software overspend runs from July onwards.
-Marketing is £31K over budget. Almost all of it (£28K) is marketing spend, concentrated in the final quarter, with November the highest month.
+IT is the largest overspend at £66K. Most of this is payroll (£30K) and software (£35K). Software spend is over budget from April, and the gap widens through the second half of the year.
+Marketing is £31K over budget. Most of it (£28K) is marketing spend. The largest overspends fall in October to December, with November the highest month.
 Sales (£14K) and Operations (£10K) are smaller. Sales is mainly travel (£9K). Operations is mainly payroll (£6K) and overheads (£3K).
-The overspend builds through the year. Monthly variance is close to zero in the first half, rises from August, and peaks in November.
+The overspend builds through the year. Monthly variance rises through the second half, dips in August and peaks in November.
 Calculations
 
 Calculated measures (one per cost line, shown for Payroll):
@@ -56,8 +58,8 @@ Currency: GBP.
 
 Files
 budget_vs_actual_fy2025.csv: the source data.
-budget_vs_actual_dashboard.pbix: the Power BI file with the data model, measures and visuals.
-screenshots/: images of the final dashboard.
+budget_vs_actual_dashboard.pbix: the Power BI file with the data model, measures and visuals. Check this matches the file name in your repo.
+screenshots/: images of the final dashboard. Remove this line if the folder doesn’t exist yet.
 Limitations
 The data is synthetic. Variances were planted for analysis, so the conclusions describe the dataset and not any real business.
 Only cost lines are included. There is no revenue or balance sheet data.
@@ -65,4 +67,4 @@ Budgets are flat across months. A real budget would normally reflect seasonality
 The data is at department level. It does not show individual transactions, suppliers or cost centres below department.
 Skills Demonstrated
 
-Power BI, budget vs actual analysis, variance analysis, DAX measures, data modelling, dashboard design, and FP&A reporting
+Power BI, budget vs actual analysis, variance analysis, DAX measures, data modelling, dashboard design, and FP&A reporting.
